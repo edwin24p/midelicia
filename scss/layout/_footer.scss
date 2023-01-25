@@ -1,0 +1,35 @@
+.footer{
+    
+    background-color: $blue;
+    color:white;
+    &__content{
+        padding: 1rem 6rem;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__logo{
+    display: flex;
+    align-items: flex-start;
+        h5{
+            padding-left:1rem;
+            color:$yellow;
+        }
+    
+    }
+    &__copyright{
+        padding-top: 0.4rem;
+    }
+    @media (max-width:992px){
+        &__content{
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+        }
+        &__logo{
+            padding-bottom: 0.5rem;
+            h5{
+                padding-left: 0.5rem;
+            }
+        }
+    }
+}
