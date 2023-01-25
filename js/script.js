@@ -5,7 +5,7 @@ let overlay = document.querySelector('.header__overlay')
 let body = document.querySelector("body")
 let individualLink = document.querySelectorAll('.header__link')
 
-oggleButton.addEventListener('click', function(e){
+toggleButton.addEventListener('click', function(e){
     overlay.classList.add('active');
     links.classList.add('active');
     close.classList.add('active');
